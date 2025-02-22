@@ -109,7 +109,6 @@ class CircularLinkedList {
 }
 
 
-
 public class Main {
     public static void main(String[] args) {
         CircularLinkedList list = new CircularLinkedList(null);
@@ -158,5 +157,6 @@ public class Main {
             System.out.print(current.data + " -> ");
             current = current.next;
         } while (current != list.last.next);
-        System.out.println("(back to start)");    }
+        System.out.println("(back to start)");
+    }
 }
